@@ -11,7 +11,7 @@ This continuously pulls a DXClusterAPI instance and collects the stats in a sqli
 Copy the example file to its final destination: ```/etc/systemd/system/dxclusterapi_monitor.service ```
 
 
-Modify AT LEAST ExecStart, ExecStop and User to your liking using a texteditor of your choice.
+Modify AT LEAST ExecStart, ExecStop, WorkingDirectory and User to your liking using a texteditor of your choice.
 
 
 Reload systemd so it picks up the new service file:
