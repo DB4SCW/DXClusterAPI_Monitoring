@@ -6,4 +6,4 @@ This continuously pulls a DXClusterAPI instance and collects the stats in a sqli
 ### Start the Daemon
 ```ruby monitor_dxcluster_api.rb start https://your.api.here/dxcache/stats ```
 ### Stop the Daemon
-```ruby monitor_dxcluster_api.rb stop https://your.api.here/dxcache/stats ```
+```ruby monitor_dxcluster_api.rb stop```
